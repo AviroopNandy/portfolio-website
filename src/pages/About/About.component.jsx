@@ -6,6 +6,8 @@ import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
 import img from "../../assets/img/profile/profile.webp";
 
+import "./About.style.css";
+
 const About = () => {
     return(
         <div id="about">
@@ -52,14 +54,14 @@ const About = () => {
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="https://github.com/akjha96" target="_blank" rel="noopener noreferrer">
+                                        <a href="https://github.com/AviroopNandy" target="_blank" rel="noopener noreferrer">
                                         <Button className="m-2" variant="outline-dark">
                                             GitHub
                                         </Button>
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="https://www.linkedin.com/in/anand-kumar-jha-745798a4/" target="_blank" rel="noopener noreferrer">
+                                        <a href="https://www.linkedin.com/in/aviroop-nandy/" target="_blank" rel="noopener noreferrer">
                                         <Button className="m-2" variant="outline-info">
                                             LinkedIn
                                         </Button>
