@@ -8,12 +8,13 @@ import MyCarousel from "./components/Carousel/MyCarousel.component";
 import Title from "./components/Title/Title.component";
 import About from "./pages/About/About.component";
 import Skills from "./pages/Skills/Skills.component";
+import Education from "./pages/Education/Education.component";
 
 import "./App.css";
 
 const App = () => {
     return(
-        <div className="App" style={{position: "relative"}}>
+        <div className="App" style={ { position: "relative" } }>
             <MyNavbar />
             <MyCarousel />
             <Title />
@@ -36,6 +37,13 @@ const App = () => {
                 <Container className="container-box rounded">
                     <Fade duration={ 500 }>
                         <Skills />
+                    </Fade>
+                </Container>
+            </div>
+            <div>
+                <Container className="container-box rounded">
+                    <Fade duration={ 500 }>
+                        <Education />
                     </Fade>
                 </Container>
             </div>

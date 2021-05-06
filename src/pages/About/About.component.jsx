@@ -26,7 +26,7 @@ const About = () => {
                                 <br />
                                 A passionate programmer and enthusiatic learner, I passed my Class 10 
                                 ICSE Board exams from St. Xavier's School, Durgapur and my CLass 12 
-                                CBSE Borad exams from DAV Model School, Durgapur. Currently I am doing 
+                                CBSE Board exams from DAV Model School, Durgapur. Currently I am doing 
                                 my B.Tech course in Computer Science and Engineering from Vellore 
                                 Institute of Technology, Vellore.
                                 <br />
