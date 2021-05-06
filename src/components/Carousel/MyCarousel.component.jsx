@@ -1,8 +1,8 @@
 import React from "react";
-import Carousel from "react-bootstrap/Carousel";
+// import Carousel from "react-bootstrap/Carousel";
 import slide1 from "../../assets/img/carousel/slide1.webp";
-import slide4 from "../../assets/img/carousel/slide4.jpg";
-import slide3 from "../../assets/img/carousel/slide3.webp";
+// import slide4 from "../../assets/img/carousel/slide4.jpg";
+// import slide3 from "../../assets/img/carousel/slide3.webp";
 import ScrollDown from "../ScrollDown/ScrollDown.component";
 
 import "./MyCarousel.style.css";
@@ -10,7 +10,12 @@ import "./MyCarousel.style.css";
 const MyCarousel = () => {
     return(
         <div id="home">
-            <Carousel controls={ false } indicators interval={ 3000 } pause={ false }>
+            <img
+                className="d-block w-100 custom-img"
+                src={ slide1 }
+                alt="First slide"
+            />
+            {/* <Carousel controls={ false } indicators interval={ 3000 } pause={ false }>
                 <Carousel.Item>
                     <img
                         className="d-block w-100 custom-img"
@@ -32,7 +37,7 @@ const MyCarousel = () => {
                         alt="Third slide"
                     />
                 </Carousel.Item>
-            </Carousel>
+            </Carousel> */}
             <ScrollDown />
         </div>
     );

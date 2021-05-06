@@ -10,7 +10,7 @@ import "./Skills.style.css";
 
 const Skills = () => {
     return(
-        <div className="pt-3 pb-3" id="skills">
+        <div className="pt-5 pb-5" id="skills">
             <h1 className="text-center font-details-b pb-4">MY SKILLS</h1>
             <CardDeck>
                 <Row className="d-flex justify-content-around">

@@ -11,8 +11,8 @@ import "./About.style.css";
 const About = () => {
     return(
         <div id="about">
-            <div className="about">
-                <h1 className="pt-3 text-center font-details pb-3">ABOUT ME</h1>
+            <div className="pb-5 about">
+                <h1 className="pt-5 text-center font-details pb-2">ABOUT ME</h1>
                 <Container>
                     <Row className="pt-3 pb-5 align-items-center">
                         <Col xs={ 12 } md={ 6 }>
@@ -47,7 +47,7 @@ const About = () => {
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="https://drive.google.com/file/d/1Snbq3x4Itk_ZN4c8J96aNdp4SunXR08Y/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+                                        <a href="/" target="_blank" rel="noopener noreferrer">
                                         <Button className="m-2" variant="outline-success">
                                             My Resume
                                         </Button>

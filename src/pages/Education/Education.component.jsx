@@ -13,7 +13,7 @@ import "./Education.style.css";
 
 const Education = () => {
     return(
-        <div id="education">
+        <div id="education" className="pb-3">
             <hr />
             <h1 className="pt-3 text-center font-details-b pb-3">EDUCATION</h1>
             <Jumbotron className="jumbo-style">

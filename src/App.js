@@ -1,6 +1,7 @@
 import React from "react";
 import { Parallax } from "react-parallax";
-import Fade from "react-reveal/Fade";
+// import Fade from "react-reveal/Fade";
+import Slide from "react-reveal/Slide";
 import Container from "react-bootstrap/Container";
 import bgImage from "./assets/img/parallax/background.webp";
 import MyNavbar from "./components/Navbar/MyNavbar.component";
@@ -9,6 +10,7 @@ import Title from "./components/Title/Title.component";
 import About from "./pages/About/About.component";
 import Skills from "./pages/Skills/Skills.component";
 import Education from "./pages/Education/Education.component";
+import Projects from "./components/Projects/Projects.component";
 
 import "./App.css";
 
@@ -26,25 +28,32 @@ const App = () => {
                 >
                     <div>
                         <Container className="container-box rounded">
-                            <Fade duration={ 500 }>
+                            <Slide left duration={ 1000 }>
                                 <About />
-                            </Fade>
+                            </Slide>
                         </Container>
                     </div>
                 </Parallax>
             </div>
             <div>
                 <Container className="container-box rounded">
-                    <Fade duration={ 500 }>
+                    <Slide bottom duration={ 1000 }>
                         <Skills />
-                    </Fade>
+                    </Slide>
                 </Container>
             </div>
             <div>
                 <Container className="container-box rounded">
-                    <Fade duration={ 500 }>
+                    <Slide right duration={ 1000 }>
                         <Education />
-                    </Fade>
+                    </Slide>
+                </Container>
+            </div>
+            <div>
+                <Container className="container-box rounded">
+                    <Slide left duration={ 1000 }>
+                        <Projects />
+                    </Slide>
                 </Container>
             </div>
         </div>
