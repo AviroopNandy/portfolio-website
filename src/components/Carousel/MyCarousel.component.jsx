@@ -3,7 +3,7 @@ import React from "react";
 import slide1 from "../../assets/img/carousel/slide1.webp";
 // import slide4 from "../../assets/img/carousel/slide4.jpg";
 // import slide3 from "../../assets/img/carousel/slide3.webp";
-import ScrollDown from "../ScrollDown/ScrollDown.component";
+// import ScrollDown from "../ScrollDown/ScrollDown.component";
 
 import "./MyCarousel.style.css";
 
@@ -38,7 +38,7 @@ const MyCarousel = () => {
                     />
                 </Carousel.Item>
             </Carousel> */}
-            <ScrollDown />
+            {/* <ScrollDown /> */}
         </div>
     );
 }
