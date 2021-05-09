@@ -12,6 +12,7 @@ import NODE_JS from "../../assets/img/skills/nodejs.svg";
 // import DJANGO from "../../assets/img/skills/django.svg";
 // import FLASK from "../../assets/img/skills/flask.svg";
 import MONGODB from "../../assets/img/skills/mongodb.svg";
+import PHP from "../../assets/img/skills/php.svg"
 import POSTGRESQL from "../../assets/img/skills/postgresql.svg";
 import MYSQL from "../../assets/img/skills/mysql.svg";
 import GIT from "../../assets/img/skills/git-icon.svg";
@@ -47,6 +48,12 @@ export const skills = {
             imgAltText: "JavaScript",
             imgSrc: JAVASCRIPT,
             skillName: "JavaScript",
+        },
+        {
+            link: "https://www.typescriptlang.org/",
+            imgAltText: "TypeScript",
+            imgSrc: TYPESCRIPT,
+            skillName: "TypeScript",
         },
         {
             link: "https://sass-lang.com",
@@ -98,6 +105,12 @@ export const skills = {
             imgAltText: "Node.js",
             imgSrc: NODE_JS,
             skillName: "Node.js",
+        },
+        {
+            link: "https://www.php.net",
+            imgAltText: "PHP",
+            imgSrc: PHP,
+            skillName: "PHP",
         },
         // {
         //     link: "https://expressjs.com/",
