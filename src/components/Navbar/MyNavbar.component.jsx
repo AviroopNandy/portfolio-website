@@ -1,16 +1,17 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
 import Nav from "react-bootstrap/Nav";
-import img from "../../assets/icons/logo.PNG";
+// import img from "../../assets/icons/logo.PNG";
 
 import "./MyNavbar.style.css";
 
 const MyNavbar = () => {
     return(
         <>
-            <Navbar collapseOnSelect fixed="top" expand="md" variant="dark" className="animate-navbar nav-theme justify-content-between">
-                <Navbar.Brand href="#home">
-                    <img src={ img } alt="Aviroop" className="logo" />
+            <Navbar collapseOnSelect fixed="top" expand="md" variant="dark" className="animate-navbar nav-theme justify-content-between navbar-custom">
+                <Navbar.Brand href="#home" className="navbar-logo">
+                    {/* <img src={ img } alt="Aviroop" className="logo" /> */}
+                    &lt; Aviroop /&gt;
                 </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                 <Navbar.Collapse id="responsive-navbar-nav">

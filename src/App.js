@@ -1,6 +1,7 @@
 import React from "react";
 import { Parallax } from "react-parallax";
-// import Fade from "react-reveal/Fade";
+import Particles from "react-particles-js";
+import { particlesOptions } from "./particlesOptions";
 import Slide from "react-reveal/Slide";
 import Container from "react-bootstrap/Container";
 import bgImage from "./assets/img/parallax/background.webp";
@@ -11,6 +12,8 @@ import About from "./pages/About/About.component";
 import Skills from "./pages/Skills/Skills.component";
 import Education from "./pages/Education/Education.component";
 import Projects from "./components/Projects/Projects.component";
+import Contact from "./pages/Contact/Contact.component";
+import Footer from "./components/Footer/Footer.component";
 
 import "./App.css";
 
@@ -20,6 +23,7 @@ const App = () => {
             <MyNavbar />
             <MyCarousel />
             <Title />
+            <Particles className="particles particles-box" params={ particlesOptions } />
             <div>
                 <Parallax blur={ { min: -30, max: 30 } }
                           bgImage={ bgImage }
@@ -56,6 +60,14 @@ const App = () => {
                     </Slide>
                 </Container>
             </div>
+            <div>
+                <Container className="container-box rounded">
+                    <Slide right duration={ 1000 }>
+                        <Contact />
+                    </Slide>
+                </Container>
+            </div>
+            <Footer />
         </div>
     );
 }

@@ -22,22 +22,19 @@ const About = () => {
                         </Col>
                         <Col xs={ 12 } md={ 6 }>
                             <Row className="align-items-start p-2 my-details rounded">
-                                Hi there! I am <strong>&nbsp;Aviroop Nandy</strong>
+                                Hey there, I'm <strong>&nbsp;Aviroop Nandy</strong>
                                 <br />
-                                A passionate programmer and enthusiatic learner, I passed my Class 10 
-                                ICSE Board exams from St. Xavier's School, Durgapur and my CLass 12 
-                                CBSE Board exams from DAV Model School, Durgapur. Currently I am doing 
-                                my B.Tech course in Computer Science and Engineering from Vellore 
-                                Institute of Technology, Vellore.
+                                I'm a passionate programmer and an enthusiastic learner currently pursuing 
+                                my B.Tech Second year in Computer Science from Vellore Institute Of Technology, 
+                                Vellore. I've passed Grade 12 from DAV Model School(CBSE Board), Durgapur with 
+                                93% and Grade 10 from St. Xavier School(ICSE Board), Durgapur with 95%. 
                                 <br />
-                                I am a frontend web developer, with a strong grasp of HTML, CSS and 
-                                Javascript libraries like ReactJS. Currently I am learning backend 
-                                languages and libraries to improve my tech stack.
+                                I'm a Frontend Developer with a solid grasp of HTML, CSS and ReactJS, a Javascript 
+                                library. I'm currently delving into backend development as well. I have a keen 
+                                interest in learning new technologies and understanding their broad scope of 
+                                applications in building scalable products.
                                 <br />
-                                Other than that, I love playing the guitar and reading books. I love 
-                                learning about new technologies, the problems they solve and how I can 
-                                use them to build better and scalable products.
-                                <br /><br />
+                                <br />
                                 <Col className="d-flex justify-content-center flex-wrap">
                                     <div>
                                         <a href="#contact">

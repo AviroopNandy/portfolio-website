@@ -1,0 +1,21 @@
+.footer-style {
+    background-color: #101018f8;
+    color: #fff;
+    font-size: 1.5em;
+    border: 2px solid #101018f8;
+    border-top-left-radius: 3px;
+}
+
+.visitors {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    padding-left: 1%;
+    padding-bottom: 1%;
+}
+
+@media screen and (max-width: 960px) {
+    .visitors {
+        display: none;
+    }
+}

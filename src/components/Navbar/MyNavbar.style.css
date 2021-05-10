@@ -1,9 +1,19 @@
+.navbar-custom {
+    /* padding-left: 5%;
+    padding-right: 5%; */
+    padding: 1% 7%;
+}
+
+.navbar-logo {
+    font-size: 24px;
+}
+
 .logo {
     width: 25%;
 }
 
 .nav-theme {
-    background-color: #101018f8;
+    background: #101018f8;
     font-size: 20px;
 }
 
@@ -14,9 +24,9 @@
 
 @keyframes moveDown {
     from {
-      transform: translateY(-5rem);
+        transform: translateY(-5rem);
     }
     to {
-      transform: translateY(0rem);
+        transform: translateY(0rem);
     }
 }
