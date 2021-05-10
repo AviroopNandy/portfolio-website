@@ -18,12 +18,13 @@ import Footer from "./components/Footer/Footer.component";
 import "./App.css";
 
 const App = () => {
+    var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     return(
         <div className="App" style={ { position: "relative" } }>
             <MyNavbar />
             <MyCarousel />
             <Title />
-            <Particles className="particles particles-box" params={ particlesOptions } />
+            { isMobile ? null : <Particles className="particles particles-box" params={ particlesOptions } /> }
             <div>
                 <Parallax blur={ { min: -30, max: 30 } }
                           bgImage={ bgImage }
