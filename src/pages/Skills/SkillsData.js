@@ -17,8 +17,9 @@ import POSTGRESQL from "../../assets/img/skills/postgresql.svg";
 import MYSQL from "../../assets/img/skills/mysql.svg";
 import GIT from "../../assets/img/skills/git-icon.svg";
 import HEROKU from "../../assets/img/skills/heroku.svg";
-import DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
-import GITHUB_PAGES from "../../assets/img/skills/github.svg";
+import VERCEL from "../../assets/img/skills/vercel.svg";
+// import DIGITAL_OCEAN from "../../assets/img/skills/digital-ocean.svg";
+import GITHUB from "../../assets/img/skills/github.svg";
 import NETLIFY from "../../assets/img/skills/netlify.svg";
 import HOSTINGER from "../../assets/img/skills/hostinger.svg";
 import CPANEL from "../../assets/img/skills/cpanel.svg";
@@ -42,18 +43,6 @@ export const skills = {
             imgAltText: "CSS 3",
             imgSrc: CSS3,
             skillName: "CSS3",
-        },
-        {
-            link: "https://javascript.com",
-            imgAltText: "JavaScript",
-            imgSrc: JAVASCRIPT,
-            skillName: "JavaScript",
-        },
-        {
-            link: "https://www.typescriptlang.org/",
-            imgAltText: "TypeScript",
-            imgSrc: TYPESCRIPT,
-            skillName: "TypeScript",
         },
         {
             link: "https://sass-lang.com",
@@ -140,15 +129,15 @@ export const skills = {
             skillName: "Heroku",
         },
         {
-            link: "https://www.digitalocean.com/",
-            imgAltText: "Digital Ocean",
-            imgSrc: DIGITAL_OCEAN,
-            skillName: "Digital Ocean",
+            link: "https://www.vercel.com/",
+            imgAltText: "Vercel",
+            imgSrc: VERCEL,
+            skillName: "Vercel",
         },
         {
             link: "https://pages.github.com/",
             imgAltText: "GitHub Pages",
-            imgSrc: GITHUB_PAGES,
+            imgSrc: GITHUB,
             skillName: "GitHub Pages",
         },
         {
@@ -231,6 +220,12 @@ export const skills = {
             imgAltText: "GIT",
             imgSrc: GIT,
             skillName: "GIT",
+        },
+        {
+            link: "https://github.com/",
+            imgAltText: "GitHub",
+            imgSrc: GITHUB,
+            skillName: "GitHub",
         },
     ],
 }

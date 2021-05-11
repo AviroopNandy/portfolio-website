@@ -33,7 +33,7 @@ const App = () => {
                 >
                     <div>
                         <Container className="container-box rounded">
-                            <Slide left duration={ 1000 }>
+                            <Slide right duration={ 1000 }>
                                 <About />
                             </Slide>
                         </Container>
@@ -42,7 +42,7 @@ const App = () => {
             </div>
             <div>
                 <Container className="container-box rounded">
-                    <Slide bottom duration={ 1000 }>
+                    <Slide left duration={ 1000 }>
                         <Skills />
                     </Slide>
                 </Container>

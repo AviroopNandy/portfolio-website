@@ -31,46 +31,12 @@ const Skills = () => {
                                 </Card.Text>
                             </Card.Body>
                         </Card>
-                    </Col>
-                    <Col md={ 4 }>
                         <Card className="focus mt-2 mb-2">
                             <Card.Body>
                                 <Card.Title className="text-center card-title">Backend</Card.Title>
                                 <hr />
                                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                                     { skills.backend.map( (skill, index) => (
-                                        <span className="p-2" key={ `${skill.skillName}${index}` }>
-                                            <a className="text-dark text-decoration-none" href={ skill.link } target="_blank" rel="noopener noreferrer">
-                                                <Image src={ skill.imgSrc } alt={ skill.imgAltText } rounded className="image-style m-1"></Image>
-                                                { skill.skillName }
-                                            </a>
-                                        </span>
-                                    ) ) }
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        <Card className="focus mt-2 mb-2">
-                            <Card.Body>
-                                <Card.Title className="text-center card-title">Hosting Platforms</Card.Title>
-                                <hr />
-                                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                                    { skills.hostingPlatforms.map( (skill, index) => (
-                                        <span className="p-2" key={ `${skill.skillName}${index}` }>
-                                            <a className="text-dark text-decoration-none" href={ skill.link } target="_blank" rel="noopener noreferrer">
-                                                <Image src={ skill.imgSrc } alt={ skill.imgAltText } rounded className="image-style m-1"></Image>
-                                                { skill.skillName }
-                                            </a>
-                                        </span>
-                                     ) ) }
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
-                        <Card className="focus mt-2 mb-2">
-                            <Card.Body>
-                                <Card.Title className="text-center  card-title">Version Control</Card.Title>
-                                <hr />
-                                <Card.Text className="card-text d-flex justify-content-start flex-column">
-                                    { skills.versionControl.map( (skill, index) => (
                                         <span className="p-2" key={ `${skill.skillName}${index}` }>
                                             <a className="text-dark text-decoration-none" href={ skill.link } target="_blank" rel="noopener noreferrer">
                                                 <Image src={ skill.imgSrc } alt={ skill.imgAltText } rounded className="image-style m-1"></Image>
@@ -105,6 +71,40 @@ const Skills = () => {
                                 <hr />
                                 <Card.Text className="card-text d-flex justify-content-start flex-column">
                                     { skills.databases.map( (skill, index) => (
+                                        <span className="p-2" key={ `${skill.skillName}${index}` }>
+                                            <a className="text-dark text-decoration-none" href={ skill.link } target="_blank" rel="noopener noreferrer">
+                                                <Image src={ skill.imgSrc } alt={ skill.imgAltText } rounded className="image-style m-1"></Image>
+                                                { skill.skillName }
+                                            </a>
+                                        </span>
+                                    ) ) }
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                    </Col>
+                    <Col md={ 4 }>
+                        <Card className="focus mt-2 mb-2">
+                            <Card.Body>
+                                <Card.Title className="text-center card-title">Hosting Platforms</Card.Title>
+                                <hr />
+                                <Card.Text className="card-text d-flex justify-content-start flex-column">
+                                    { skills.hostingPlatforms.map( (skill, index) => (
+                                        <span className="p-2" key={ `${skill.skillName}${index}` }>
+                                            <a className="text-dark text-decoration-none" href={ skill.link } target="_blank" rel="noopener noreferrer">
+                                                <Image src={ skill.imgSrc } alt={ skill.imgAltText } rounded className="image-style m-1"></Image>
+                                                { skill.skillName }
+                                            </a>
+                                        </span>
+                                     ) ) }
+                                </Card.Text>
+                            </Card.Body>
+                        </Card>
+                        <Card className="focus mt-2 mb-2">
+                            <Card.Body>
+                                <Card.Title className="text-center  card-title">Version Control</Card.Title>
+                                <hr />
+                                <Card.Text className="card-text d-flex justify-content-start flex-column">
+                                    { skills.versionControl.map( (skill, index) => (
                                         <span className="p-2" key={ `${skill.skillName}${index}` }>
                                             <a className="text-dark text-decoration-none" href={ skill.link } target="_blank" rel="noopener noreferrer">
                                                 <Image src={ skill.imgSrc } alt={ skill.imgAltText } rounded className="image-style m-1"></Image>

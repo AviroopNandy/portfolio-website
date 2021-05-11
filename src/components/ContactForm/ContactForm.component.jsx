@@ -26,7 +26,7 @@ const ContactForm = () => {
             </Form.Row>
             <Form.Row className="pt-2 pb-2">
                 <Col>
-                    <Form.Control as="textarea" placeholder="Enter your message..." rows="4" />
+                    <Form.Control as="textarea" name="message" placeholder="Enter your message..." rows="4" />
                     <ValidationError 
                         prefix="Message" 
                         field="message"
