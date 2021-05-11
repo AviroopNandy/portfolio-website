@@ -15,7 +15,7 @@ const Footer = () => {
     return(
         <div className="footer-style pt-1 pb-1">
             <div className="py-2 text-center">
-                &copy; { new Date().getFullYear() } Aviroop Nandy
+                Brewed with &#128151; Aviroop Nandy { new Date().getFullYear() }
             </div>
             <div className="visitors">
                 <Button variant="primary">
