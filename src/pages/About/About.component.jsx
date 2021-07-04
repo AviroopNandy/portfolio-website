@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import Image from "react-bootstrap/Image";
 import img from "../../assets/img/profile/profile.webp";
+import resume from "../../assets/pdf/resume.pdf";
 
 import "./About.style.css";
 
@@ -44,7 +45,7 @@ const About = () => {
                                         </a>
                                     </div>
                                     <div>
-                                        <a href="/" target="_blank" rel="noopener noreferrer">
+                                        <a href={ resume } download="resume.pdf" target="_blank" rel="noopener noreferrer">
                                         <Button className="m-2" variant="outline-success">
                                             My Resume
                                         </Button>
